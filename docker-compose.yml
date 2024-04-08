@@ -1,13 +1,13 @@
 version: '3.8'
 services:
   movies:
-    image: manikantacherry/mani:latest
+    image: manikantacherry/ram:latest
     ports:
       - "88:80"
     deploy:
       replicas: 3
   train:
-    image: manikantacherry/cherry:latest
+    image: manikantacherry/raj:latest
     ports:
       - "89:80"
     deploy:
